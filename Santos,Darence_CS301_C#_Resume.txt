@@ -1,0 +1,61 @@
+// Darence Santos CS301P
+
+using System;
+namespace ConsoleApp
+{
+    class Resume
+    {
+        static void Main (string[]args)
+        {
+            Console.Write("Enter your Name: ");
+            string name = Console.ReadLine();
+            Console.Write("Enter your Present Address: ");
+            string presentaddress = Console.ReadLine();
+            Console.Write("Enter your Permanent Address: ");
+            string permanentaddress = Console.ReadLine();
+            Console.Write("Enter your Date of Birth: ");
+            string birthdate = Console.ReadLine();
+            Console.Write("Enter your Civil Status: ");
+            string civilstatus = Console.ReadLine();
+            Console.Write("Enter your Citizenship: ");
+            string citizenship = Console.ReadLine();
+            Console.Write("Enter your Place of Birth: ");
+            string birthplace = Console.ReadLine();
+            Console.Write("Enter your Father's name: ");
+            string father = Console.ReadLine();
+            Console.Write("Enter your Mother's Name: ");
+            string mother = Console.ReadLine();
+            Console.Write("Enter your Address: ");
+            string address = Console.ReadLine();
+            Console.Write("Enter your Spoken Dialect: ");
+            string dialect = Console.ReadLine();
+            Console.Write("Enter your Person to be notified in Case of Emergency: ");
+            string emergency = Console.ReadLine();
+            Console.Write("Enter your Religion: ");
+            string religion = Console.ReadLine();
+            Console.Write("Enter your Age:  ");
+            int age;
+            age = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter your Weight: ");
+            string weight = Console.ReadLine();
+            Console.Write("Enter your Height: ");
+            string height = Console.ReadLine();
+            
+            Console.WriteLine("");
+            Console.WriteLine("\n\nRESUME");
+            Console.WriteLine("Name             : " + name);
+            Console.WriteLine("Present Address  : " + presentaddress);
+            Console.WriteLine("Permanent Address: " + permanentaddress);
+            Console.WriteLine("Date of Birth    : " + birthdate +   "   Religion     :"  + religion);
+            Console.WriteLine("Civil Status     : " + civilstatus + "   Age          : " + age);
+            Console.WriteLine("Citizenship      : " + citizenship + "   Weight       : " + weight);
+            Console.WriteLine("Place of Birth   : " + birthplace +  "   Height       : " + height);
+            Console.WriteLine("Name of Father   : " + father);
+            Console.WriteLine("Name of Mother   : " + mother);
+            Console.WriteLine("Address          : " + address);
+            Console.WriteLine("Dialects Spoken  : " + dialect);
+            Console.WriteLine("Emergency to call: " + emergency);
+            Console.ReadKey();
+        }
+    }
+}
